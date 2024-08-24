@@ -2,7 +2,7 @@ name: 'Build corne nice_nano_v2 nice_view modified'
 on: workflow_dispatch
 jobs:
   build:
-    uses: ./.github/workflows/main.yml
+    uses: ./.github/workflows/custom.yml
     secrets: inherit
     with:
       board: '["nice_nano_v2"]'
